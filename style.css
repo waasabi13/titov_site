@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&family=Oswald:wght@500&family=Raleway&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+#logo{
+    width: 106px;
+    height: 80px;
+    margin-left: 10%;
+    background-image: url("img/logo.jpeg");
+}
+.block{
+    display: flex;
+}
+.head-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.buttons{
+    border-radius: 50px;
+    height: 35px;
+    width: max-content;
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    letter-spacing: 3px;
+}
+.buttons:hover{
+    color: gainsboro;
+    cursor: pointer;
+}

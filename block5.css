@@ -1,0 +1,47 @@
+#block-5{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 5%;
+}
+
+#image-7-container{
+    max-width: 905px;
+    height: auto;
+    margin-right: auto;
+    z-index: -2;
+}
+#image-7{
+    width: 100%;
+    height: auto;
+    z-index: -2;
+}
+#block-5-1{
+    max-width: 413px;
+    position: relative;
+}
+#block-5-info{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#block-5-info h5{
+    margin-top: 15px;
+}
+#block-5-info button{
+    margin-top: 15px;
+}
+@media screen and  (max-width: 1450px){
+    #block-5{
+        display: flex;
+        flex-direction: column;
+    }
+    #block-5-1{
+        max-width: 100%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
